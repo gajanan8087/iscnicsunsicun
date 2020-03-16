@@ -61,7 +61,7 @@ public class MenuValidation {
 
 	@Test
 	public void testLinksSeq() {
-		Assert.assertEquals(listMenuWeb,listMenuExcel);
+		//Assert.assertEquals(listMenuWeb,listMenuExcel);
 		if(listMenuWeb.size()==listMenuExcel.size()) {
 			for(int i=0;i<listMenuWeb.size();i++) {
 				boolean flag=true;
